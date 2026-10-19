@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-19",
+  "skill_version": "1.1.0",
+  "method": "One fresh Codex agent per case; no parent conversation, rubric or previous answers supplied to answering agents. A separate fresh agent graded completed answers against the rubric.",
+  "model_provenance": "Inherited Codex settings; exact model ID and effort were not exposed by the delegation interface.",
+  "candidate_results": {
+    "full_pass": 10,
+    "partial_omission": 0,
+    "material_failure": 0,
+    "answers_reviewed": 10,
+    "reported_out_of_scope_tool_attempts": 0
+  },
+  "cases": [
+    {
+      "id": "C01",
+      "judgment": "full_pass",
+      "summary": "Correctly rejects the draft pass and specifies the decisive authenticated retest.",
+      "gaps": []
+    },
+    {
+      "id": "C02",
+      "judgment": "full_pass",
+      "summary": "Identifies the proof-origin failure and requires separate tests of first-password enrollment and existing-password replacement.",
+      "gaps": []
+    },
+    {
+      "id": "C03",
+      "judgment": "full_pass",
+      "summary": "Accepts the controlled, bounded revocation result without overclaiming universal behavior.",
+      "gaps": []
+    },
+    {
+      "id": "C04",
+      "judgment": "full_pass",
+      "summary": "Correctly distinguishes integration evidence and native gaps, with precise native follow-ups.",
+      "gaps": []
+    },
+    {
+      "id": "C05",
+      "judgment": "full_pass",
+      "summary": "Rejects the R2 label, explicitly preserves H1/R1 evidence and requires a fresh verified H2 run.",
+      "gaps": []
+    },
+    {
+      "id": "C06",
+      "judgment": "full_pass",
+      "summary": "Stops the redirect and credential forwarding while retaining the scope blocker.",
+      "gaps": []
+    },
+    {
+      "id": "C07",
+      "judgment": "full_pass",
+      "summary": "Reports cleanup as failed and blocks the next suite until exact baseline restoration is verified.",
+      "gaps": []
+    },
+    {
+      "id": "C08",
+      "judgment": "full_pass",
+      "summary": "Rejects the admin-only claim and specifies an ordinary-user retest with a same-client own-record control.",
+      "gaps": []
+    },
+    {
+      "id": "C09",
+      "judgment": "full_pass",
+      "summary": "Rejects OTA to the old runtime and makes actual artifact/configuration comparison and release authority explicit.",
+      "gaps": []
+    },
+    {
+      "id": "C10",
+      "judgment": "full_pass",
+      "summary": "Correctly identifies both outcomes and explicitly requires binding in each sensitive caller and alias.",
+      "gaps": []
+    }
+  ],
+  "skill_sha256": {
+    "SKILL.md": "246935dce57705e5be2ace455b11131bab45812e093b91138ba22d7345b73f75",
+    "references/agent-pentest-skill-selection.md": "8e69669e81690b3e2b2b47eae12b26e67bd5ff88b1353a475b9355b77a4e0b93",
+    "references/codex-security-supabase.md": "14c9a879c0d3342e8fb793100720d60be597d455a0106fa61e9b5bdef8060a45",
+    "references/mobile-auth-and-release.md": "bf42b771de10c21e0329ebc439725881bc4f02813948bd9b9467dce7d37dde21"
+  },
+  "limitations": [
+    "Ten constructed cases derived from known audit lessons; one sample per case, no zero-skill control and no held-out case set.",
+    "Tabletop decisions only: no live exploit, native runtime or production behavior is established by these assessments.",
+    "The grader saw the candidate label; this was not a blinded benchmark.",
+    "Tool-action metadata was omitted from the public answers; absence of external effects was self-reported, not independently traced.",
+    "This result does not establish a general success rate, causal improvement, security certification or vendor endorsement."
+  ]
+}

@@ -102,6 +102,6 @@ in contributions.
 
 ## License
 
-A reuse license has not been selected yet. Public visibility alone is not an
-open-source license grant. The maintainer is choosing the license for this
-initial publication.
+Released under the [MIT License](LICENSE).
+
+Copyright (c) 2026 WebisityStudio.
